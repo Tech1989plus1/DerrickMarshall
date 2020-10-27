@@ -5,9 +5,9 @@ const NavBrand = () => {
     <div className="nav-brand">
       <a href="index.html">
         <h3>Derrick Marshall</h3>
-        <img src="./images/GitHub.png" alt=""/>
-        <img src="/images/LI.png" alt=""/>
       </a>
+      <img id="link" src="/images/LI.png" alt=""/>
+      <img id="git" src="./images/GitHub.png" alt=""/>
     </div>
   );
 }
