@@ -30,6 +30,7 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.4.0",
+    "boxicons": "^2.0.7",
     "express": "^4.17.1",
     "faker": "^5.1.0",
     "react": "^17.0.1",

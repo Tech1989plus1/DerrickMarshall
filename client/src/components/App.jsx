@@ -7,8 +7,7 @@ const App = () => {
   return (
     <div className="app">
       <React.Fragment>
-        <Nav/>
-        <Header/>
+       
       </React.Fragment>
     </div>
   )
