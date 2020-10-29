@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Nav from './features/Nav.jsx';
+import Home from './features/Home.jsx';
 import Header from './features/Header.jsx';
 
 const App = () => {
@@ -9,6 +9,9 @@ const App = () => {
     <div className="app">
       <React.Fragment>
         <Header/>
+        <main className="l-main">
+          <Home/>
+        </main>
       </React.Fragment>
     </div>
   )
