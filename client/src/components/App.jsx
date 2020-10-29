@@ -1,10 +1,17 @@
 import React from 'react';
 
+import Home from './features/Home.jsx';
+import Header from './features/Header.jsx';
+
 const App = () => {
+
   return (
     <div className="app">
       <React.Fragment>
-        <h1>Hello</h1>
+        <Header/>
+        <main className="l-main">
+          <Home/>
+        </main>
       </React.Fragment>
     </div>
   )
