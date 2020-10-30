@@ -4,7 +4,7 @@ const faker = require('faker');
 
 const initialState = {
   id: nanoid(),
-  summary: faker.lorem.paragraph()
+  about: faker.lorem.paragraph()
 }
 
 const aboutMeSlice = createSlice({
